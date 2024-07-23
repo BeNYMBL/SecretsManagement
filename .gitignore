@@ -24,7 +24,7 @@
 **/.classpath
 **/.project
 src/SecretsManagement/javasource/system
-src/EmailModuleWithTemplates/javasource/encryption
+src/SecretsManagement/javasource/encryption
 **/GPUCache
 **/*.DS_Store
 **/*.core.prefs
