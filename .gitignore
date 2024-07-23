@@ -23,8 +23,11 @@
 **/.launch
 **/.classpath
 **/.project
-src/SecretsManagement/javasource/system
-src/SecretsManagement/javasource/encryption
+javasource/system
+javasource/encryption
+javasource/administration
+javasource/atlas_ui_resources
+javasource/main_app
 **/GPUCache
 **/*.DS_Store
 **/*.core.prefs
