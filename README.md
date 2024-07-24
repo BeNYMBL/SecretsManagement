@@ -1,6 +1,6 @@
 To use:
-1. For SecretsManager version 1.0.0, Encryption module version 8.0.6 is required.
-2. In your project settings make sure you edit you configuration and set the `SecretsManager.EncryptionKey` constant to a 32 character encryption key.
-3. Add the `Manage_Secrets` page to your navigation, and assign the users who can manage secrets the `SecretsManagement.Admin` role.
-4. For users who can access secrets but not create new ones, assign the `SecretsManager.User` role.
-5. Then to use the secret you can use the microflow `ACT_GetDecryptedCredentials`. 
+1. In your project settings make sure you edit you configuration and set the `SecretsManager.EncryptionKey` constant to a 32 character encryption key.
+3. Add the `Manage_Secrets` page to your navigation, or if you want to add your own layout, copy it to your project and modify as needed.
+4. Assign the users who can create and edit key/secret(username/password) pairs the `SecretsManagement.Admin` role.
+5. For users who can access key/secret(username/password) pairs but not create new ones, assign the `SecretsManager.User` role.
+6. Then to use the key/secret(username/password) pair you can use the microflow `ACT_GetDecryptedCredentials`. 
