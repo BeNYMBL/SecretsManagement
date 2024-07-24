@@ -28,6 +28,9 @@ javasource/encryption
 javasource/administration
 javasource/atlas_ui_resources
 javasource/main_app
+theme
+widgets
+**/*.mpr
 **/GPUCache
 **/*.DS_Store
 **/*.core.prefs
